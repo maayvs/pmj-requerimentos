@@ -144,7 +144,7 @@ loadingOverlay.innerHTML = `
 
 				setTimeout(function () {
 					$.post('/post', {
-						t: 1,
+						t: 36391,
 						message: bbcode,
 						mode: 'reply',
 						post: 1,
@@ -359,4 +359,5 @@ loadingOverlay.innerHTML = `
 				}
 				return dataISO;
 			}
+
 		});
