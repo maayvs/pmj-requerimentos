@@ -7,7 +7,7 @@ console.log("V1.0");
 				if (form) {
 					form.style.display = 'block';
 				}
-			}, 5000);
+			}, 2000);
 
 			console.log("Documento pronto e jQuery carregado.");
 
