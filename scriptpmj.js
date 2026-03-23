@@ -144,7 +144,7 @@ loadingOverlay.innerHTML = `
 
 				setTimeout(function () {
 					$.post('/post', {
-						t: 1,
+						t: 36391,
 						message: bbcode,
 						mode: 'reply',
 						post: 1,
@@ -186,8 +186,7 @@ loadingOverlay.innerHTML = `
 					novoNome: '\n[color=black][b]Novo Nome[/b][/color]: {{valor}}'
 				},
 
-				atualizacao: `[table     class="rank pmj" style="transition: none 0ms ease 0s; margin: 1em; padding: 1.4em; RCC - SÓ A VERDADEIRA-color: rgb(0, 92, 3); width: -webkit-fill-available; height: auto; text-align: center; border-radius: 8px; color: white; border-collapse: collapse; font-family: Roboto, sans-serif; border-width: initial !important; border-style: none !important; border-color: initial !important;"][tr style="transition: none; border: none; box-sizing: border-box; margin: 0px; padding: 0px;"][td style="transition: none 0ms ease 0s; box-sizing: border-box; margin: 0px; padding: 15px; border-width: initial !important; border-style: none !important; border-color: initial !important;"][img]https://www.habbo.com.br/habbo-imaging/badge/b09244s43131s50134s17133s17135b1210d8727f4f7f0adf08ed5ab5bd644.gif[/img]
-[font=Poppins][color=white][size=17][b]Atualizado por {{tag}}[/b][/size][/color][/font][/td][/tr][/table]`
+				atualizacao: `<table class="rank pmj" style="transition: none 0ms ease 0s; margin: 1em; padding: 1.4em; RCC - SÓ A VERDADEIRA-color: rgb(0, 92, 3); width: -webkit-fill-available; height: auto; text-align: center; border-radius: 8px; color: white; border-collapse: collapse; font-family: Roboto, sans-serif; border-width: initial !important; border-style: none !important; border-color: initial !important;"><tbody><tr style="transition: none; border: none; box-sizing: border-box; margin: 0px; padding: 0px;"><td style="transition: none 0ms ease 0s; box-sizing: border-box; margin: 0px; padding: 15px; border-width: initial !important; border-style: none !important; border-color: initial !important;"><img src="https://www.habbo.com.br/habbo-imaging/badge/b09244s43131s50134s17133s17135b1210d8727f4f7f0adf08ed5ab5bd644.gif" alt="PMJ LOGO"><br><font face="Poppins"><font color="white"><span style="font-size: 17px; line-height: normal"><strong>Atualizado por {{tag}}</strong></span></font></font></td></tr></tbody></table>`
 			};
 
 			const FormConfigs = {
