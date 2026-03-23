@@ -144,7 +144,7 @@ loadingOverlay.innerHTML = `
 
 				setTimeout(function () {
 					$.post('/post', {
-						t: 36391,
+						t: 1,
 						message: bbcode,
 						mode: 'reply',
 						post: 1,
